@@ -6,3 +6,4 @@ extends:
   - "@jsdevtools/tslint-modular/best-practices"
   - "@jsdevtools/tslint-modular/style"
   - "@jsdevtools/tslint-modular/node"
+  - "@jsdevtools/tslint-modular/browser"

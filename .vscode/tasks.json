@@ -26,12 +26,11 @@
 
     {
       "type": "npm",
-      "script": "test",
+      "script": "test:node",
       "group": {
         "kind": "test",
         "isDefault": true
       },
-      "problemMatcher": "$tslint5"
     },
   ]
 }
