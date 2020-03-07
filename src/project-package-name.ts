@@ -13,5 +13,5 @@ export function projectExportName(options?: Options): string {
     throw new Error("Cannot say goodbye");
   }
 
-  return `${settings.greeting}, ${settings.subject}.`;
+  return `${settings.greeting}, ${settings.subject} from ${settings.location}.`;
 }

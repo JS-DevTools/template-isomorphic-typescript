@@ -1,3 +1,5 @@
+import { getLocation } from "./isomorphic.node";
+
 /**
  * Options that can be provided by callers.  All fields are optional.
  */
@@ -23,11 +25,21 @@ export class Settings {
   public subject = "world";
 
   /**
+   * The location where the greeting is coming from.
+   *
+   * The default is the current working directory (in Node) or the current web page (in browsers)
+   */
+  public location: string;
+
+  /**
    * Normalizes and sanitizes options provided by the caller,
    * and applies default values for any settings that aren't specified.
    */
   public constructor(options: Options = {}) {
     options.greeting && (this.greeting = String(options.greeting));
     options.subject && (this.subject = String(options.subject));
+
+    // Use the specified location, or the default location for the runtime
+    this.location = options.location ? options.location : getLocation();
   }
 }
