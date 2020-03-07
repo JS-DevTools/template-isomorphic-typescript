@@ -9,4 +9,10 @@ extends:
   - "@jsdevtools/modular/style"
   - "@jsdevtools/modular/es6"
   - "@jsdevtools/modular/node"
+  - "@jsdevtools/modular/browser"
   - "@jsdevtools/modular/test"
+
+rules:
+  strict:
+    - error
+    - global
