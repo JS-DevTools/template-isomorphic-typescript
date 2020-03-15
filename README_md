@@ -2,12 +2,13 @@ My Project Name
 ==============================================
 ### The description of my library
 
+[![npm](https://img.shields.io/npm/v/@my-npm-scope/my-package-name.svg)](https://www.npmjs.com/package/@my-npm-scope/my-package-name)
+[![License](https://img.shields.io/npm/l/@my-npm-scope/my-package-name.svg)](LICENSE)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/MyGitHubOrg/my-repo-name)
+
 [![Build Status](https://github.com/MyGitHubOrg/my-package-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-package-name/blob/master/.github/workflows/CI-CD.yaml)
 [![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-package-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-package-name)
-
-[![npm](https://img.shields.io/npm/v/@my-npm-scope/my-package-name.svg)](https://www.npmjs.com/package/@my-npm-scope/my-package-name)
 [![Dependencies](https://david-dm.org/MyGitHubOrg/my-package-name.svg)](https://david-dm.org/MyGitHubOrg/my-package-name)
-[![License](https://img.shields.io/npm/l/@my-npm-scope/my-package-name.svg)](LICENSE)
 
 [![OS and Browser Compatibility](https://jstools.dev/img/badges/ci-badges-with-ie.svg)](https://github.com/MyGitHubOrg/my-package-name/blob/master/.github/workflows/CI-CD.yaml)
 
@@ -90,6 +91,8 @@ To build the project locally on your computer:
 License
 --------------------------
 My Project Name is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+
+This package is [Treeware](http://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/MyGitHubOrg/my-repo-name) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
 
 
 
