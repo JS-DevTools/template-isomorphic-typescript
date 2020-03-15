@@ -1,45 +1,45 @@
 "use strict";
 
-const { projectExportName } = require("../../");
+const { myLibrary } = require("../../");
 const { assert, expect } = require("chai");
 const { host } = require("@jsdevtools/host-environment");
 
 const location = host.node ? process.cwd() : window.location.href;
 
-describe("projectExportName() API", () => {
+describe("myLibrary() API", () => {
 
   it("should work without any arguments", () => {
-    let result = projectExportName();
+    let result = myLibrary();
     expect(result).to.equal(`Hello, world from ${location}.`);
   });
 
   it("should accept a custom greeting", () => {
-    let result = projectExportName({ greeting: "Hi there" });
+    let result = myLibrary({ greeting: "Hi there" });
     expect(result).to.equal(`Hi there, world from ${location}.`);
   });
 
   it("should accept a custom subject", () => {
-    let result = projectExportName({ subject: "Michael" });
+    let result = myLibrary({ subject: "Michael" });
     expect(result).to.equal(`Hello, Michael from ${location}.`);
   });
 
   it("should accept a custom location", () => {
-    let result = projectExportName({ location: "New York City" });
+    let result = myLibrary({ location: "New York City" });
     expect(result).to.equal("Hello, world from New York City.");
   });
 
   it("should accept a custom greeting and subject", () => {
-    let result = projectExportName({ greeting: "Yo", subject: "man" });
+    let result = myLibrary({ greeting: "Yo", subject: "man" });
     expect(result).to.equal(`Yo, man from ${location}.`);
   });
 
   it("should accept a custom greeting, subject, and location", () => {
-    let result = projectExportName({ greeting: "Yo", subject: "man", location: "outer space" });
+    let result = myLibrary({ greeting: "Yo", subject: "man", location: "outer space" });
     expect(result).to.equal("Yo, man from outer space.");
   });
 
   it("should set the location based on the runtime host", () => {
-    let result = projectExportName();
+    let result = myLibrary();
 
     if (host.browser) {
       expect(result).to.match(/^Hello, world from http:\/\/localhost/);
@@ -54,7 +54,7 @@ describe("projectExportName() API", () => {
 
   it('should not allow a greeting of "goodbye"', () => {
     try {
-      projectExportName({ greeting: "Goodbye" });
+      myLibrary({ greeting: "Goodbye" });
       assert.fail("An error should have been thrown!");
     }
     catch (error) {
