@@ -6,11 +6,11 @@ My Project Name
 [![License](https://img.shields.io/npm/l/@my-npm-scope/my-package-name.svg)](LICENSE)
 [![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/MyGitHubOrg/my-repo-name)
 
-[![Build Status](https://github.com/MyGitHubOrg/my-package-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-package-name/blob/master/.github/workflows/CI-CD.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-package-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-package-name)
-[![Dependencies](https://david-dm.org/MyGitHubOrg/my-package-name.svg)](https://david-dm.org/MyGitHubOrg/my-package-name)
+[![Build Status](https://github.com/MyGitHubOrg/my-repo-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-repo-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-repo-name)
+[![Dependencies](https://david-dm.org/MyGitHubOrg/my-repo-name.svg)](https://david-dm.org/MyGitHubOrg/my-repo-name)
 
-[![OS and Browser Compatibility](https://jstools.dev/img/badges/ci-badges-with-ie.svg)](https://github.com/MyGitHubOrg/my-package-name/blob/master/.github/workflows/CI-CD.yaml)
+[![OS and Browser Compatibility](https://jstools.dev/img/badges/ci-badges-with-ie.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
 
 
 
@@ -69,13 +69,13 @@ To use My Project Name in a browser, you'll need to use a bundling tool such as 
 
 Contributing
 --------------------------
-Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/MyGitHubOrg/my-package-name/issues) on GitHub and [submit a pull request](https://github.com/MyGitHubOrg/my-package-name/pulls).
+Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/MyGitHubOrg/my-repo-name/issues) on GitHub and [submit a pull request](https://github.com/MyGitHubOrg/my-repo-name/pulls).
 
 #### Building
 To build the project locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/MyGitHubOrg/my-package-name.git`
+`git clone https://github.com/MyGitHubOrg/my-repo-name.git`
 
 2. __Install dependencies__<br>
 `npm install`
