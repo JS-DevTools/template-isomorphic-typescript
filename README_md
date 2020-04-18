@@ -10,7 +10,7 @@ My Project Name
 [![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-repo-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-repo-name)
 [![Dependencies](https://david-dm.org/MyGitHubOrg/my-repo-name.svg)](https://david-dm.org/MyGitHubOrg/my-repo-name)
 
-[![OS and Browser Compatibility](https://jstools.dev/img/badges/ci-badges-with-ie.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
+[![OS and Browser Compatibility](https://my-website.com/img/badges/ci-badges-with-ie.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
 
 
 
@@ -100,6 +100,6 @@ Big Thanks To
 --------------------------
 Thanks to these awesome companies for their support of Open Source developers ❤
 
-[![Travis CI](https://jstools.dev/img/badges/travis-ci.svg)](https://travis-ci.com)
-[![SauceLabs](https://jstools.dev/img/badges/sauce-labs.svg)](https://saucelabs.com)
-[![Coveralls](https://jstools.dev/img/badges/coveralls.svg)](https://coveralls.io)
+[![Travis CI](https://my-website.com/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://my-website.com/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://my-website.com/img/badges/coveralls.svg)](https://coveralls.io)

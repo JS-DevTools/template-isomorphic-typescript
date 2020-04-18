@@ -19,6 +19,7 @@ Replace all occurrences of the following placeholders in all files:
 |`MyGitHubOrg`                      |The GitHub org for this repository, such as "JS-DevTools".
 |`my-repo-name`                     |The GitHub repo name
 |`MyTwitterAccount`                 |The Twitter account associated with this project, such as "JSDevTools".
+|`https://my-website.com`           |The website for this project, such as "https://jstools.dev".
 |`@my-npm-scope`                    |The NPM scope that the package will be published to, such as "@jsdevtools".
 |`my-package-name`                  |The NPM package name. It should be kebab-cased.
 |`myLibrary`                        |The name of the library's default export, if any.  This should be a valid JavaScript identifier name.
