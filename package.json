@@ -2,7 +2,10 @@
   "name": "@my-npm-scope/my-package-name",
   "version": "0.0.1",
   "description": "The description of my library",
-  "keywords": [],
+  "keywords": [
+    "isomorphic",
+    "browser"
+  ],
   "author": {
     "name": "James Messinger",
     "url": "https://jamesmessinger.com"
