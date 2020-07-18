@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 /**
  * Returns the current working directory
  */
